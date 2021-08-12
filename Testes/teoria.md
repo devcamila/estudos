@@ -1,8 +1,20 @@
+***TIPOS PRINCIPAIS DE TESTES AUTOMATIZADOS***
+1. Testes de Unidade Automatizada (Unit Tests)
+Testes de unidade automatizada são gravados para teste no nível de código, bugs são identificados nas funções, métodos e rotinas escritas pelos desenvolvedores.
+<br />
+2. Web Service / API Tests
+Uma Application Programming Interface (API) possibilita que o software converse com outros aplicativos de software, assim como qualquer outro software, as APIs precisam ser testadas. Nesse tipo de teste, a GUI geralmente não está envolvida.
+<br />
+3. Testes de GUI automatizados
+Esse tipo de teste automatizado é a forma mais difícil de automação porque envolve o teste de uma interface do usuário do aplicativo.
+
+---
 ***TDD (TEST DRIVEN DEVELOPMENT)***
-Desenvolvimento Orientado por Testes
+**Desenvolvimento Orientado por Testes:** Cria a demanda, roda o teste e desenvolve em cima do resultado do teste.
 Funcionalidades: funções, API's
 Guia para desenvolvimento
 Voltado para desenvolvedor
+
 
 
 ***BDD (BEHAVIOR DRIVEN DEVELOPMENT)***
@@ -16,17 +28,26 @@ CI/CD designa respectivamente Continuous Integration e Continuous Delivery
 O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.
 
 **Instalação**
-Digita no prompt:
+*APENAS NA PRIMEIRA VEZ*
+Digita no prompt: 
 
-    $ npm install express-generator -g
+    npm install express-generator -g
 
-Entra na pasta do projeto (cd) e digita:
+*A CADA NOVO PROJETO*
+Entra na **pasta do projeto (cd)** e digita:
 
-    $ express NOMEPROJETO --view ejs
+    express NOMEPROJETO --view ejs
 
-Entra na pasta do projeto (cd) e digita:
+Entra no **projeto (cd)** e digita:
 
-    $ npm install
+    npm install
+
+Para abrir no browser: 
+
+    npm start
+
+
+**Alterações são nas pastas views e public**
 
 ---
 ***JASMINE***
@@ -91,10 +112,9 @@ Pode ser usado em Node, JavaScript puro, React, Angular, Vue e outros frameworks
 É bem completo, rápido e precisa de pouca configuração para usar. Quando os testes não passam, fornece um contexto rico do motivo de ter falhado.
 Parecido com Jasmine mas no lugar de 'it' se usa 'test'
 
----
+
 ***CYPRESS***
 Cypress é uma ferramenta poderosa de última geração desenvolvida especialmente para engenheiros de controle de qualidade (analistas QA) e desenvolvedores, que podem usá-la para os testes unitários. Totalmente baseado em uma nova arquitetura isenta do Selenium, apresenta o próprio painel exibindo exatamente o que está acontecendo durante a execução dos testes. 
 
 Quando instalar o Cypress, vai ter uma pasta chamada “examples” com mais de 100 testes para serem executados.
 
----

@@ -155,13 +155,10 @@ ou usando spread:
 ---
 ***CLASSES***
 Maneira de criar objetos e lidar com herança
-**Criar instância:**
-
-    let criarInstância = new nomeClasse() ;
 
 Exemplo:
 
-    class nomeCLasse {
+    class NomeCLasse {
         funçãoA(parametro) {
             return
         }
@@ -170,13 +167,17 @@ Exemplo:
         }
     }
 
+**Criar instância:**
+
+    let criarInstância = new NomeClasse() ;
+
 ---
 ***OBJETOS***
 É uma coleção de dados e/ou funcionalidades
 Tem propridades de chave e valor
 Quando o valor de uma propriedade é uma função, chama-se método do objeto
 
-    let nomeObject = {
+    let NomeObject = {
         nome: 'valor',
         nome: 'valor',
         nome: 'valor',
@@ -184,7 +185,7 @@ Quando o valor de uma propriedade é uma função, chama-se método do objeto
 
     exemplo:
     
-    let pessoa = {
+    let Pessoa = {
         nome: 'Camila',
         sobrenome: 'Lacerda',
         idade: function idade(anoAual, anoNascimento) {
@@ -193,14 +194,20 @@ Quando o valor de uma propriedade é uma função, chama-se método do objeto
     }
 Para acessar apenas uma propriedade:
 
-    let nome = pessoa.nome
+    let nome = Pessoa.nome
 
 **DESTRUCTURING**
 Pode acessar várias propriedades de uma vez.
 Pode acessar propriedades de objetos aninhados (objeto dentro de objeto) e renomear propriedades
 Pode definir um valor padrão se a propriedade não existir.
 
-let = {nome, sobrenome, idade} = pessoa
+let = {nome, sobrenome, idade} = Pessoa
+
+---
+***ORIENTAÇÃO A OBJETOS***
+Encapsulamento
+Herança 
+Polimorfismo
 
 ---
 ***MATCH***
@@ -238,3 +245,4 @@ Exmplos: Google Agenda, YouTube
 - Capivara.js
 
 ---
+
