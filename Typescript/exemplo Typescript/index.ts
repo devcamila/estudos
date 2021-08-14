@@ -40,3 +40,26 @@ console.log(nome)
 interface Pessoa {
     nome: string
 }
+
+
+
+class Pessoa {
+    nome: string;
+    idade: number;
+
+    constructor(nome: string, idade: number) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+
+class Estudante extends Pessoa {
+
+    constructor() {
+        super('Amanda', 27)
+    }
+}
+
+const amanda = new Estudante();
+
+

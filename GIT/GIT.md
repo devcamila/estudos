@@ -1,60 +1,62 @@
 ## GITHUB
 
-***GERAL***
-
-git status
-git remote -v (conferir)
-git config
-git log: mostra todos commits e infos
-git show SHA1 (inspeciona o commit)
-git show (inspeciona o último commit)
-fork é fazer uma coópia para seu GitHub
-
----
-***INICIALIZAR REPOSITÓRIO LOCAL***
-
-git init
-git add nome do aquivo || git add . (todos os arquivos)
-git reset: reverte o git add
-git commit -m "nome commit"
-git commit -am "nome commit" (atalho para adicionar e commitar juntos)
-git branch -M "novo nome da branch"
+***GERAL***<br>
+git status<br>
+git remote -v (conferir)<br>
+git config<br>
+git log: mostra todos commits e infos<br>
+git show SHA1 (inspeciona o commit)<br>
+git show (inspeciona o último commit)<br>
+fork é fazer uma coópia para seu GitHub<br>
 
 ---
-***BRANCH FEATURE (CAMINHO ALTERNATIVO)***
+***INICIALIZAR REPOSITÓRIO LOCAL***<br>
+git init<br>
+git add nome do aquivo || git add . (todos os arquivos)<br>
+git reset: reverte o git add<br>
+git commit -m "nome commit"<br>
+git commit -am "nome commit" (atalho para adicionar e commitar juntos)<br>
+git branch -M "novo nome da branch"<br>
 
-git branch feature/nome-da-branch (criar)
-git checkout feature/nome-da-branch (vai para ela)
-git checkout -b nome-nova-branch (criar e já migra para nova branch)
-git checkout master (volta para a principal)
-git merge feature/nome-da-branch (une a feature a master)
 
-git branch (mostra todas a branchs criadas)
-git branch -D feature/nome-da-branch (deleta branch)
-
----
-***ENVIAR PARA O GITHUB***
-
-criar repositório vazio no site 
-git remote add origin URL
-git push -u origin nomeDaBranch
+**Sempre mude a branch de MASTER para MAIN para não dar erro com o repositório remoto**
 
 ---
-***PEGAR DO GITHUB***
+***BRANCH FEATURE (CAMINHO ALTERNATIVO)***<br>
+git branch feature/nome-da-branch (criar)<br>
+git checkout feature/nome-da-branch (vai para ela)<br>
+git checkout -b nome-nova-branch (criar e já migra para nova branch)<br>
+git checkout master (volta para a principal)<br>
+git merge feature/nome-da-branch (une a feature a master)<br>
+git branch (mostra todas a branchs criadas)<br>
+git branch -D feature/nome-da-branch (deleta branch)<br>
 
+---
+***ENVIAR PARA O GITHUB***<br>
+**criar repositório vazio no seu GitHub** <br>
+**URL= do repositório que criou**<br>
+
+git remote add origin URL<br>
+git push -u origin nomeDaBranch<br>
+
+---
+***ATUALIZAR REPOSITORIO LOCAL***<br>
+*Caso mude algum no repositório do GitHUb precisa atualizar o locals*<br>
+
+git pull <br>
+
+---
+***PEGAR REPOSITÓRIO DO GITHUB***<br>
 git clone URL
 
 ---
-***VOLTAR PARA UM COMMIT***
-
-git checkout SHA1 
-git status
-faça outro commit e push
-
----
-***ATUALIZAR REPOSITORIO LOCAL***
-git pull 
+***VOLTAR PARA UM COMMIT***<br>
+git checkout SHA1 <br>
+git status <br>
+faça outro commit e push <br>
 
 ---
-***GIT IGNORE***
-.gitignore (escreve nome de arquivos e pastas que devem ser ignorados)
+***GIT IGNORE***<br>
+.gitignore (escreve nome de arquivos e pastas que devem ser ignorados)<br>
+
+---

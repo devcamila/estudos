@@ -1,49 +1,48 @@
-***COMENTÁRIOS***
-*ATALHO: seleciona e ctrl + ;*
-JavaScript: //: uma linha ou /**/:  várias linhas
-html (<!--     hífen->)
+***COMENTÁRIOS***<br>
+*ATALHO: seleciona e ctrl + ;*<br>
+JavaScript: //: uma linha ou /**/:  várias linhas<br>
+html (<!--     hífen->) <br>
 css /* */
 
 ---
-***VARIÁVEIS E TIPOS PRIMITIVOS***
+***VARIÁVEIS E TIPOS PRIMITIVOS***<br>
 - **Identificadores(nomeVariavel):** começa com letra, $ ou _
 - Sempre usar espaço entre operadores e após a virgula
 - **Indentação:** use dois espaços
 - Sempre termine uma insttrução simples com ;
 - Tipos de variáveis= string, number, boolean, null, undefined, symbol
 
-**var:** escopo global, escopo de função, pode ser redefinida e sofre hosting
-**let:** escopo de função, escopo de bloco, pode ser redefinida
-**const:** escopo de função, escopo de bloco, não pode ser redefinida
+**var:** escopo global, escopo de função, pode ser redefinida e sofre hosting<br>
+**let:** escopo de função, escopo de bloco, pode ser redefinida<br>
+**const:** escopo de função, escopo de bloco, não pode ser redefinida<br>
 
-**null(vazio) !== undefinded(indefinido)**
+**null(vazio) !== undefinded(indefinido)**<br>
 
-**Concatenar:** Juntar variáveis. 
+**Concatenar:** Juntar variáveis. <br>
 
     var nome = 'Camila '
     var sobrenome = 'Lacerda'
     var nomeCompleto = nome + sobrenome
 
 
-**Template Strings:**
-Possível interpolar strings e expressões.
-Além de criar strings multi-linhas.
+**Template Strings:**<br>
+Possível interpolar strings e expressões.<br>
+Além de criar strings multi-linhas.<br>
+
     `Olá ${nome}!`
 
-    `Olá
-    mundo`
-Space holder: ${}
+    Space holder: ${}
 
 ---
-***PRECEDÊNCIA DE OPERAÇÕES***
-parênteses: () 
-pontenciação: **
-multiplicação e divisão: * / %
-soma e subtração: + -
-resto: % : mode
+***PRECEDÊNCIA DE OPERAÇÕES***<br>
+parênteses: () <br>
+pontenciação: **<br>
+multiplicação e divisão: * / %<br>
+soma e subtração: + -<br>
+resto: % : mode<br>
 
 ---
-***CONDICIONAIS***
+***CONDICIONAIS***<br>
 **IF / ELSE**
 
     if (condição) {
@@ -75,14 +74,14 @@ resto: % : mode
     (condição) ? ação : outra ação
 
 ---
-***ESTRUTURAS DE REPETIÇÂO***
+***ESTRUTURAS DE REPETIÇÂO***<br>
 **FOR**
 
     for (let i = 0; i <= 100; i++) {
         ação quando houver
     }
 
-**WHILE**
+**WHILE**<br>
 Não sei o fim, é preciso criar uma flag de parada.
 
     while (condição) {  
@@ -90,7 +89,7 @@ Não sei o fim, é preciso criar uma flag de parada.
     }
 
 ---
-***SPREAD (...)*** 
+***SPREAD (...)*** <br>
 Faz com que os valores se adaptem onde estão sendo aplicados,
 
     var list = [1, 2, 5]
@@ -98,8 +97,8 @@ Faz com que os valores se adaptem onde estão sendo aplicados,
     var listFinal = [1, 2, ...addList, 5]
 
 ---
-***ARRAYS***
-Não é possível fazer cópia de uma array, como podemos fazer de variáveis, apenas referência-lo.
+***ARRAYS***<br>
+Não é possível fazer cópia de uma array, como podemos fazer de variáveis, apenas referência-lo.<br>
 
 Para **fazer cópias** de arrays usamos:
 
@@ -153,8 +152,8 @@ ou usando spread:
     }
 
 ---
-***CLASSES***
-Maneira de criar objetos e lidar com herança
+***CLASSES***<br>
+Maneira de criar objetos e lidar com herança<br>
 
 Exemplo:
 
@@ -172,10 +171,10 @@ Exemplo:
     let criarInstância = new NomeClasse() ;
 
 ---
-***OBJETOS***
-É uma coleção de dados e/ou funcionalidades
-Tem propridades de chave e valor
-Quando o valor de uma propriedade é uma função, chama-se método do objeto
+***OBJETOS***<br>
+É uma coleção de dados e/ou funcionalidades<br>
+Tem propridades de chave e valor<br>
+Quando o valor de uma propriedade é uma função, chama-se método do objeto<br>
 
     let NomeObject = {
         nome: 'valor',
@@ -196,34 +195,36 @@ Para acessar apenas uma propriedade:
 
     let nome = Pessoa.nome
 
-**DESTRUCTURING**
-Pode acessar várias propriedades de uma vez.
-Pode acessar propriedades de objetos aninhados (objeto dentro de objeto) e renomear propriedades
-Pode definir um valor padrão se a propriedade não existir.
+---
+**DESTRUCTURING**<br>
+Pode acessar várias propriedades de uma vez.<br>
+Pode acessar propriedades de objetos aninhados (objeto dentro de objeto) e renomear propriedades<br>
+Pode definir um valor padrão se a propriedade não existir.<br>
 
-let = {nome, sobrenome, idade} = Pessoa
+    let = {nome, sobrenome, idade} = Pessoa
 
 ---
-***ORIENTAÇÃO A OBJETOS***
-Encapsulamento
-Herança 
-Polimorfismo
+***ORIENTAÇÃO A OBJETOS***<br>
+Encapsulamento<br>
+Herança <br>
+Polimorfismo<br>
 
 ---
-***MATCH***
+***MATCH***<br>
 Retorna uma correspondência entre uma string com uma expressão regular (RegExp)
 
     let texto = 'Meu cep é 38.000-000';
     const regex = new RegExp('[0-9]{2}.[0-9]{3}-[0-9]{3}');
 
 ---
-***SPA (Single Page Applications)***
-São aplicações cuja funcionalidade está concentrada em uma única página. Ao invés de recarregar toda a página ou redirecionar o usuário para uma página nova, apenas o conteúdo principal é atualizado de forma assíncrona, mantendo toda a estrutura da página estática.(site DevMedia)
+***SPA (Single Page Applications)***<br>
+São aplicações cuja funcionalidade está concentrada em uma única página. Ao invés de recarregar toda a página ou redirecionar o usuário para uma página nova, apenas o conteúdo principal é atualizado de forma assíncrona, mantendo toda a estrutura da página estática.(site DevMedia)<br>
+
 **Frameworks: React, Angular e Vue.js.**
 
 ---
-***PWA Progressive Web Apps)***
-É uma aplicação híbrida entre web e mobile. 
+***PWA Progressive Web Apps)***<br>
+É uma aplicação híbrida entre web e mobile. <br>
 - Progressivo: Funciona para qualquer usuário em qualquer navegador.
 - Responsivo: Adapta em qualquer formato.
 - Indepedente de conectividade.
@@ -233,15 +234,18 @@ São aplicações cuja funcionalidade está concentrada em uma única página. A
 - Reenvolvente: Gerar engajamento através das notificações PUSH.
 - Instalável
 - Linkável
-Exmplos: Google Agenda, YouTube
+  <br>
 
-***WEBCOMPONENTS***
-É uma suíte de diferentes tecnologias que permite a criação de elementos customizados reutilizáveis
+Exemplos: Google Agenda, YouTube
 
-**- HTML TEMPLATE:** possibilita a criação de fragmentos HTML que podem ser invocados.
-**- Custom Elements:** capacidadee de criar elementos customizados.
-**- Shadow DOM:** estilos e diretivas globais ficam encapsulados.
-**- ES MODULES:** possibilidade de carregar módulos nativamente.
+---
+***WEBCOMPONENTS***<br>
+É uma suíte de diferentes tecnologias que permite a criação de elementos customizados reutilizáveis<br>
+
+**- HTML TEMPLATE:** possibilita a criação de fragmentos HTML que podem ser invocados.<br>
+**- Custom Elements:** capacidadee de criar elementos customizados.<br>
+**- Shadow DOM:** estilos e diretivas globais ficam encapsulados.<br>
+**- ES MODULES:** possibilidade de carregar módulos nativamente.<br>
 - Capivara.js
 
 ---

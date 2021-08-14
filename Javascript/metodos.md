@@ -1,31 +1,31 @@
-***CAIXAS DE DIÁlOGO***
-windows.alert() 
-window.confimr() : ok ou cancel
-window.prompt() : input
+***CAIXAS DE DIÁlOGO***<br>
+windows.alert() <br>
+window.confimr() : ok ou cancel<br>
+window.prompt() : input<br>
 
 ---
-***FUNCÕES E MÉTODOS***
-**-n é a variável em questão-** 
+***FUNCÕES E MÉTODOS***<br>
+**-n é a variável em questão-** <br>
 parse = converter
 
-**Number.parseInt() ou parseInt():** Converte em número inteiro
-**Number.parseFloat() ou parseFloat():** Converte em número decimal
-**Number():** o Js converte automaticamente
-**String():** converte em string
-**n.toString():** converte em string
+**Number.parseInt() ou parseInt():** Converte em número inteiro<br>
+**Number.parseFloat() ou parseFloat():** Converte em número decimal<br>
+**Number():** o Js converte automaticamente<br>
+**String():** converte em string<br>
+**n.toString():** converte em string<br>
 
-**n.length:** tamanho da string
-**n.toUpperCase():** todas maiúsculas
-**n.toLowerCase():** todas minúsculas
+**n.length:** tamanho da string<br>
+**n.toUpperCase():** todas maiúsculas<br>
+**n.toLowerCase():** todas minúsculas<br>
 
-**n.toFixed():** fixa as casas decimais
-**n.replace(um, por outro):** troca um valor por outro
-**n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRA'})** : moeda local
+**n.toFixed():** fixa as casas decimais<br>
+**n.replace(um, por outro):** troca um valor por outro<br>
+**n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRA'})** : moeda local<br>
 
 
-***AULAS GAMA***
-**n.substring(índiceStart[, índiceSEnd]):** retorna a parte da string entre os índices inicial e final
-**n.charAt(índice):** Retorna o caractere que se encontra nesse indice
+***AULAS GAMA***<br>
+**n.substring(índiceStart[, índiceSEnd]):** retorna a parte da string entre os índices inicial e final<br>
+**n.charAt(índice):** Retorna o caractere que se encontra nesse indice<br>
 
 
 ---

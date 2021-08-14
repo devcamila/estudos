@@ -1,6 +1,6 @@
 ###***BEM (BLOCK__ELEMENT--MODIFIER)***
 
-***CONCEITOS***
+***CONCEITOS***<br>
 Ajuda na nomenclatura dos componentes
 
 Bloco: header, body, main
@@ -14,26 +14,26 @@ Modificadores: color, highlight, active
 
 ***NOMENCLATURA***
 
-- Para blocos: não se usa nada específico 
+- Para blocos: não se usa nada específico <br>
   **.list**
 
-- Para classes dos elementos:
-  **.list__item**
+- Para classes dos elementos:<br>
+  **.list__item**<br>
   **.list__title**
 
-Para classes filhas de elementos (div -> h2)
-bloco: .list
-elementos: .list__item publication
-child: .publication__title 
+- Para classes filhas de elementos (div -> h2)<br>
+**bloco:** .list<br>
+**elementos:** .list__item publication<br>
+**child:** .publication__title 
 
-- Para classes modificadoras:
-  **.list__item--highlight
-  .button .button--blue**
-  <br />
+- Para classes modificadoras:<br>
+  **.list__item--highlight<br>
+  .button .button--blue**<br>
 
-**ATENÇÂO**
-Evite classes netas
-Preferencialmente, use apenas 1x __ na classe
+
+**ATENÇÂO**<br>
+Evite classes netas<br>
+Preferencialmente, use apenas 1x __ na classe<br>
 Evite diversas classes (exceção. modificadores)
 
 ***EXEMPLO***
@@ -70,12 +70,12 @@ Evite diversas classes (exceção. modificadores)
 <br />
 <br />
 
-***HTML***
+***HTML***<br>
 < button class="button">Normal </button><br />
 < button class="button button--state-success"> Success </button><br />
 < button class="button button--state-danger"> Danger </button><br />
 
-***CSS***
+***CSS***<br>
 .button {
 	display: inline-block;
 	border-radius: 3px;

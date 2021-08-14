@@ -1,39 +1,39 @@
-***TIPOS PRINCIPAIS DE TESTES AUTOMATIZADOS***
-1. Testes de Unidade Automatizada (Unit Tests)
-Testes de unidade automatizada são gravados para teste no nível de código, bugs são identificados nas funções, métodos e rotinas escritas pelos desenvolvedores.
-<br />
-2. Web Service / API Tests
-Uma Application Programming Interface (API) possibilita que o software converse com outros aplicativos de software, assim como qualquer outro software, as APIs precisam ser testadas. Nesse tipo de teste, a GUI geralmente não está envolvida.
-<br />
-3. Testes de GUI automatizados
-Esse tipo de teste automatizado é a forma mais difícil de automação porque envolve o teste de uma interface do usuário do aplicativo.
+***TIPOS PRINCIPAIS DE TESTES AUTOMATIZADOS***<br>
+1. Testes de Unidade Automatizada (Unit Tests)<br>
+Testes de unidade automatizada são gravados para teste no nível de código, bugs são identificados nas funções, métodos e rotinas escritas pelos desenvolvedores.<br>
+1. Web Service / API Tests<br>
+Uma Application Programming Interface (API) possibilita que o software converse com outros aplicativos de software, assim como qualquer outro software, as APIs precisam ser testadas. Nesse tipo de teste, a GUI geralmente não está envolvida.<br />
+3. Testes de GUI automatizados<br>
+Esse tipo de teste automatizado é a forma mais difícil de automação porque envolve o teste de uma interface do usuário do aplicativo.<br>
 
 ---
-***TDD (TEST DRIVEN DEVELOPMENT)***
-**Desenvolvimento Orientado por Testes:** Cria a demanda, roda o teste e desenvolve em cima do resultado do teste.
-Funcionalidades: funções, API's
-Guia para desenvolvimento
-Voltado para desenvolvedor
+***TDD (TEST DRIVEN DEVELOPMENT)***<br>
+**Desenvolvimento Orientado por Testes:** <br>
+Cria a demanda, roda o teste e desenvolve em cima do resultado do teste.<br>
+Funcionalidades: funções, API's<br>
+Guia para desenvolvimento<br>
+Voltado para desenvolvedor<br>
 
+---
+***BDD (BEHAVIOR DRIVEN DEVELOPMENT)***<br>
+Desenvolvimento Orientado ao Comportamento<br>
+Voltado para o négocio: CSS, responsividade, interações<br>
 
+*CI/CD designa respectivamente Continuous Integration e Continuous Delivery* <br>
 
-***BDD (BEHAVIOR DRIVEN DEVELOPMENT)***
-Desenvolvimento Orientado ao Comportamento
-Voltado para o négocio: CSS, responsividade, interações
+---
+***EXPRESS***<br>
+O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.<br>
 
+---
+**Instalação**<br>
+*APENAS NA PRIMEIRA VEZ*<br>
 
-CI/CD designa respectivamente Continuous Integration e Continuous Delivery 
-
-***EXPRESS***
-O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.
-
-**Instalação**
-*APENAS NA PRIMEIRA VEZ*
 Digita no prompt: 
 
     npm install express-generator -g
 
-*A CADA NOVO PROJETO*
+*A CADA NOVO PROJETO*<br>
 Entra na **pasta do projeto (cd)** e digita:
 
     express NOMEPROJETO --view ejs
@@ -50,12 +50,12 @@ Para abrir no browser:
 **Alterações são nas pastas views e public**
 
 ---
-***JASMINE***
- Jasmine é um framework de teste de software que segue a técnica (BDD) e ele é utilizado junto com o (TDD)
+***JASMINE***<br>
+ Jasmine é um framework de teste de software que segue a técnica (BDD) e ele é utilizado junto com o (TDD)<br>
 
-Para testar algo com Jasmine você pode utilizar: 
-**describe(string, function):** nome do escopo do teste.
-**it(string, function):** nome do teste.
+Para testar algo com Jasmine você pode utilizar: <br>
+**describe(string, function):** nome do escopo do teste.<br>
+**it(string, function):** nome do teste.<br>
 **expect(actual):** chamada do evento/function … etc que será testado
 <br />
 
@@ -82,13 +82,13 @@ Para testar algo com Jasmine você pode utilizar:
 
 <br />
 
-*Dentro do diretório do Jasmine:*
-lib: diretório com as bibliotecas do Jasmine.
-spec: diretório para criação dos testes.
-src: diretório contendo os arquivos que serão testados.
+*Dentro do diretório do Jasmine:*<br>
+lib: diretório com as bibliotecas do Jasmine.<br>
+spec: diretório para criação dos testes.<br>
+src: diretório contendo os arquivos que serão testados.<br>
 
 ---
-***CUCUMBER***
+***CUCUMBER***<br>
 O Cucumber é uma ferramenta usada para executar testes de aceitação automatizados que foram criados em um formato BDD. Um de seus recursos mais destacados é a capacidade de realizar descrições funcionais de texto simples (Gherkin).
 - Descreva um comportamento em um texto simples;
 - Escreva uma definição dos passos em Java ou em outras linguagens;
@@ -107,14 +107,16 @@ O Cucumber é uma ferramenta usada para executar testes de aceitação automatiz
         And user password is updated to the new password
 
 ---
-***JEST***
-Pode ser usado em Node, JavaScript puro, React, Angular, Vue e outros frameworks.
-É bem completo, rápido e precisa de pouca configuração para usar. Quando os testes não passam, fornece um contexto rico do motivo de ter falhado.
-Parecido com Jasmine mas no lugar de 'it' se usa 'test'
+***JEST***<br>
+Pode ser usado em Node, JavaScript puro, React, Angular, Vue e outros frameworks.<br>
+É bem completo, rápido e precisa de pouca configuração para usar. Quando os testes não passam, fornece um contexto rico do motivo de ter falhado.<br>
+Parecido com Jasmine mas no lugar de 'it' se usa 'test'<br>
 
+---
+***CYPRESS***<br>
+Cypress é uma ferramenta poderosa de última geração desenvolvida especialmente para engenheiros de controle de qualidade (analistas QA) e desenvolvedores, que podem usá-la para os testes unitários. Totalmente baseado em uma nova arquitetura isenta do Selenium, apresenta o próprio painel exibindo exatamente o que está acontecendo durante a execução dos testes. <br>
 
-***CYPRESS***
-Cypress é uma ferramenta poderosa de última geração desenvolvida especialmente para engenheiros de controle de qualidade (analistas QA) e desenvolvedores, que podem usá-la para os testes unitários. Totalmente baseado em uma nova arquitetura isenta do Selenium, apresenta o próprio painel exibindo exatamente o que está acontecendo durante a execução dos testes. 
+Quando instalar o Cypress, vai ter uma pasta chamada “examples” com mais de 100 testes para serem executados.<br>
 
-Quando instalar o Cypress, vai ter uma pasta chamada “examples” com mais de 100 testes para serem executados.
+---
 

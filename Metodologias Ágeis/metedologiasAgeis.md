@@ -1,44 +1,46 @@
-***METODOLOGIAS ÁGEIS***
+***METODOLOGIAS ÁGEIS***<br>
 
-**MENTALIDADE**
-### Ser responsivo a mudança!
+**MENTALIDADE**<br>
+### Ser responsivo a mudança!<br>
 
-Três V : Visão (objetivo) ➡ Valor(resultado) ➡ Validação(feedback) ➡ **é um ciclo**
+Três V : Visão (objetivo) ➡ Valor(resultado) ➡ Validação(feedback) ➡ **é um ciclo**<br>
 Visão gera autogestão e proatividade.
 
-***Controle impírico de processo***
+***Controle impírico de processo***<br>
 - Transparência: todos agigerem em conjunto e manterem a comunicação
 - Inspeção: gera o valor e inspeciona
 - Adaptação: o resultado gera uma adaptação
 
-**Metodologia Ágil:** análise, produção e mudança. Entregas rápidas e melhorias continuas.
-Evita diperdício, apresentando o simples e tornando-o complexo com o tempo.
+**Metodologia Ágil:** <br>
+Análise, produção e mudança. Entregas rápidas e melhorias continuas.<br>
+Evita diperdício, apresentando o simples e tornando-o complexo com o tempo.<br>
 
-**Estratégia de entrega**
-A entregas não devem apenas serem rápidas mas devem tentar resolver o problema.
-Poderá incrementar de acordo com a demanda mas deve ser útil desde a primeira entrega.
+**Estratégia de entrega**<br>
+A entregas não devem apenas serem rápidas mas devem tentar resolver o problema.<br>
+Poderá incrementar de acordo com a demanda mas deve ser útil desde a primeira entrega.<br>
 
-**Gestão produto (ágil):** foco no produto, clientes potenciais e demandas (melhor produto)
-**Gestão projeto:** triângulo de ferro: escopo, tempo e custo (o melhor que posso fazer dentro de um cenário)
+**Gestão produto (ágil):** foco no produto, clientes potenciais e demandas (melhor produto)<br>
 
-**Débito técnico** vem após uma entrega que se tornou grande para a primeira solução.
-Não se deve fazer entregar com débito técnico e justificar agilidade.
-E fazer essa correção no tempo certo é **Excelência técnica**.
+**Gestão projeto:** triângulo de ferro: escopo, tempo e custo (o melhor que posso fazer dentro de um cenário)<br>
 
+**Débito técnico** vem após uma entrega que se tornou grande para a primeira solução.<br>
+Não se deve fazer entregar com débito técnico e justificar agilidade.<br>
+E fazer essa correção no tempo certo é **Excelência técnica**.<br>
 
-#### O código estar limpo e bem escrito é essencial para o retrabalho ser o mais simples e rápido possivel!
+### **O código estar limpo e bem escrito é essencial para o retrabalho ser o mais simples e rápido possivel!**
+
 ---
-***MANIFESTO ÁGIL***
-Até 1990: modelo castata (waterfall) - Tradicional e previsível
-final dos 80's: internet e computador, tornaram os problemas mais complexos e foi necessário outras soluções. SCRUM, XP, DSDM, ASD, FDD, CRYSTALCLEAR
+***MANIFESTO ÁGIL***<br>
+Até 1990: modelo castata (waterfall) - Tradicional e previsível<br>
+Final dos 80's: internet e computador, tornaram os problemas mais complexos e foi necessário outras soluções. SCRUM, XP, DSDM, ASD, FDD, CRYSTALCLEAR<br>
 
-***OS QUATRO VALORES***
-    I – Indivíduos e interações acima de processos e ferramentas
-    II – Software funcionando é melhor que documentação abrangente
-    III – Colaboração com o cliente acima de negociação de contratos
-    IV – Responder a mudanças ao invés de seguir um plano
+***OS QUATRO VALORES***<br>
+    I – Indivíduos e interações acima de processos e ferramentas<br>
+    II – Software funcionando é melhor que documentação abrangente<br>
+    III – Colaboração com o cliente acima de negociação de contratos<br>
+    IV – Responder a mudanças ao invés de seguir um plano<br>
 
-***OS DOZE PRINCIPIOS***
+***OS DOZE PRINCIPIOS***<br>
 1. Satisfação do cliente: A maior prioridade está em satisfazer o cliente por meio da entrega adiantada e contínua de software de valor.
 2. Mudança em favor da vantagem competitiva: Mudanças de requisitos são bem-vindas, mesmo em fases tardias do desenvolvimento.
 3. Prazos curtos: Entregar software em funcionamento com frequência, desde a cada duas semanas até a cada dois meses, com uma preferência por prazos mais curtos.
@@ -52,4 +54,5 @@ final dos 80's: internet e computador, tornaram os problemas mais complexos e fo
 11. Autonomia: As melhores arquiteturas, os requisitos e os designs emergem de times auto organizáveis.
 12. Reflexões para otimizações: Em intervalos regulares, o time reflete em como ficar mais efetivo, então, se ajustam e otimizam seu comportamento de acordo.
 
+---
 
