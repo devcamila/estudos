@@ -32,7 +32,7 @@ Ele vai pegar o arquivo JSX e inserir ele no Html do projeto.<br>
 
 ---
 ***Instalação***<br>
-
+***Sem instalar na maquina***<br>
 Abra a pasta do projeto pelo terminal e digite:
 
     npx create-react-app *nome-projeto*
@@ -40,10 +40,26 @@ Abra a pasta do projeto pelo terminal e digite:
 Após carregar, siga as instruções do terminal.
 
     cd *nome-projeto*
-    yarn start
+    npm start
+
+***Instalando versão global na maquina***<br>
+
+Abra a pasta do projeto e pelo terminal, digite:
+
+    npm install -g create-react-app
+
+Agora digite:
+
+    create-react-app *nome-projeto*
+
+Após carregar, siga as instruções do terminal.
+
+    cd *nome-projeto*
+    npm start
 
 ---
 ***Começando***<br>
+**GAMA**<br>
 Na pasta ./scr temos a App.js e o index.**js**<br>
 
 **App.js** é o arquivo do componente que vamos renderizar<br>
@@ -136,6 +152,116 @@ Definir (set) e modificar estados.
 
 ---
 **API**
-Consumir dados de uma API
+Consumir dados de uma API: fazer requisição para um servidor, solicitando usar alguns de seus dados.<br>
+
+**API REST**<br>
+ParÂmetros:<br>
+
+**API RESTFUL**<br>
+Seguir todos os parâmetros REST<br>
 
 ---
+**REACT-ROUTER**<br>
+Serve para rotearmos todas as telas da nossa aplicação, por exemplo, tela home e tela fale conosco.<br>
+Muda a rota de acordo com o que escolhemos<br>
+
+**Instalando React Dom**<br>
+
+    npm install react-router-dom
+    
+**Cria a pasta routes.js**
+
+    import React from 'react';
+    import { Switch, Route, BrowserRouter } from 'react-router-dom';
+    import Component from './Component';
+    import Component from './Component';
+
+
+    function Routes() {
+        return ( 
+            <BrowserRouter>
+                <Switch >
+                <Route path="/component" component={ Component } /> 
+                <Route path="/component" component={ Component } /> 
+                </Switch>
+            </BrowserRouter>
+        )
+    }
+
+    export default Routes;
+
+**Dentro de App.js**<br>
+Chamaremos apenas o componente Routes. <br>
+
+    import React from 'react';
+    import Routes from './routes';
+
+    function App() {
+    return ( 
+        <>
+          <Routes />
+        </>
+        );
+    }
+
+
+    export default App;
+
+---
+***STYLED-COMPONENTS***<br>
+**Instalação**<br>
+Na pasta do projeto:<br>
+
+    # with npm
+    npm install --save styled-components
+
+    # with yarn
+    yarn add styled-components
+
+**Cria um arquivo js na pasta da página em questão.**
+
+    import styled from "styled-components";
+
+    export const NOME-DA-CLASS = styled.ELEMENTO-HTML`
+        color: #000;
+        font-family: sans-serif;
+        font-size: 12px;
+    `;
+
+**Vá no arquivo do componente e importe:**
+
+    import * as S from './styled'
+
+
+ **mude o ELEMENTO-HTML por S.NOME-DA-CLASS;**
+ 
+    <S.Container>
+
+**Exemplo site styled-components**
+
+    const Title = styled.h1`
+    font-size: 1.5em;
+    text-align: center;
+    color: palevioletred;
+    `;
+
+    antes:   
+    render(
+        <Section>
+            <h1>
+             Hello World!
+            </h1>
+        </Section>
+    );
+
+    depois:
+    render(
+        <Section>
+            <Title>
+             Hello World!
+            </Title>
+        </Section>
+    );
+
+---
+
