@@ -264,4 +264,67 @@ Na pasta do projeto:<br>
     );
 
 ---
+***LOCAL STORAGE***<br>
+LocalStorage consiste em salvar, adicionar, recuperar ou excluir dados localmente em um navegador Web, esta informação é guardada na forma de pares de chave-valor e os valores podem ser apenas strings.<br>
 
+    meuStorage = localStorage;
+
+    localStorage.setItem('meuGato', 'Tom');
+
+---
+***REDICIONAR PÁGINAS*** <br>
+Podemos usar o **useHistory** em botões, por exemplo:
+
+    import { useHistory } from 'react-router-dom'
+
+    const history = useHistory();
+    const voltar = () => {
+    history.push('/homepage')
+    }
+    <button onClick={ voltar }}>Voltar</button>
+
+Podemos usar a **NavLink** com barras de navegação, ela nos mostra qual guia está ativa, por exemplo:<br>:
+
+    import { NavLink } from 'react-router-dom'
+
+    <NavLink to = '/home' style = {{background: 'green'}} activeStyle = {{background: 'red'}}>Home</NavLink>
+    <NavLink to = '/about' style = {{background: 'green'}} activeStyle = {{background: 'red'}}>About</NavLink>
+    
+Podemos usar o **Link** para vincularmos URl internas ou barras de navegação que não ficam visiveis durante a navegação, por exemplo:<br>
+
+    import { Link } from 'react-router-dom'
+
+    <Link to = '/home' style = {{background: 'green'}>Home</Link>
+
+Podemos usar o **a** para vincularmos URL externas, por exemplo:
+
+    <a href="https://github.com/">Git</a>
+
+---
+***TRATANDO ERROS***
+
+Dentro do componente funcional:
+
+    const [ erro, setErro ] = useState(false);
+
+Dentro da função que vai manipular o elemento:
+
+
+    setErro(false);
+
+    .catch(err => {
+        setErro(true);
+        });
+
+Dentro do return do componente funcional:
+
+    { erro ? <S.ErrorMgs>Usuário não encontrado, tente novamente!</S.ErrorMgs> : null } 
+
+**Conditional rendering:** usar um condicional na renderização.
+
+---
+***PARA APROFUNDAR***
+- React Context API
+- Redux
+- Next.Js
+- Gatsby.js 
