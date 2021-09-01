@@ -12,13 +12,16 @@ function handlePesquisa() {
   axios.get(`https://api.github.com/users/${usuario}/repos`)
   .then(response => { 
     const repositories = response.data;
+    console.log(repositories)
     const repositoriesName = [];
     repositories.map((repositories) => {
      return (repositoriesName.push(repositories.name));
     });
-    localStorage.setItem('repositoriesName', JSON.stringify(repositoriesName));
+
+    localStorage.setItem('repositoriesName', JSON.stringify({repositoriesName}));
     setErro(false);
     history.push('./repositories');
+
     })
     .catch(err => {
       setErro(true);

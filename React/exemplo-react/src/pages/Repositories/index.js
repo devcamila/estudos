@@ -19,7 +19,7 @@ function Repositories() {
             history.push('/')
         }
 
-    }, []);
+    }, [history]);
         
 
     const gohome = () => {
